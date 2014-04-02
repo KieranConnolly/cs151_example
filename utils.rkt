@@ -1,5 +1,13 @@
 #lang racket
 (require gigls/unsafe)
+
+;;; File:
+;;;   utils.rkt
+;;; Author:
+;;;   Kieran Connolly, taken from Sam Rebelsky/Grinnell CS
+;;; Summary:
+;;;   A few sample utilities, created as part of a lab on GitHub.
+
 ;;; Procedure:
 ;;;   nums
 ;;; Parameters:
@@ -18,8 +26,12 @@
   (lambda (n)
     (cdr (iota (+ n 1)))))
 
+<<<<<<< HEAD
 ;; This is me just adding some comments so I can do some commits.
 
 
 ;; Just me adding some more comments so I can commit again and practice
 ;; my level of commitment.
+=======
+;;; If this shows up then the pull merged the documents
+>>>>>>> b4e934b549502981471929997cea9a4e56e54037
