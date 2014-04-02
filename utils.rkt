@@ -1,5 +1,13 @@
 #lang racket
 (require gigls/unsafe)
+
+;;; File:
+;;;   utils.rkt
+;;; Author:
+;;;   Kieran Connolly, taken from Sam Rebelsky/Grinnell CS
+;;; Summary:
+;;;   A few sample utilities, created as part of a lab on GitHub.
+
 ;;; Procedure:
 ;;;   nums
 ;;; Parameters:
@@ -17,5 +25,3 @@
 (define first-n-nums
   (lambda (n)
     (cdr (iota (+ n 1)))))
-
-;; This is me just adding some comments so I can do some commits.
