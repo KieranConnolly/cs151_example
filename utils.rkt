@@ -2,7 +2,8 @@
 (require gigls/unsafe)
 
 ;;; File:
-;;;   utils.rkt
+;;;   git-examples/utils.rkt
+;;;   This is the cloned example that I made. 
 ;;; Author:
 ;;;   Kieran Connolly, taken from Sam Rebelsky/Grinnell CS
 ;;; Summary:
@@ -22,6 +23,6 @@
 ;;;   (length list-of-nums) == n
 ;;;   (list-ref list-of-nums i) = i+1
 ;;;     for all i, 0 <= i < n.
-(define first-n-nums
+(define nums
   (lambda (n)
     (cdr (iota (+ n 1)))))
