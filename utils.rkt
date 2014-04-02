@@ -23,8 +23,7 @@
 ;;;   (length list-of-nums) == n
 ;;;   (list-ref list-of-nums i) = i+1
 ;;;     for all i, 0 <= i < n.
-(define first-n-numbers
+
+(define nums
   (lambda (n)
     (cdr (iota (+ n 1)))))
-
-;; Just a marker comment to check that the file has updated.
