@@ -22,16 +22,6 @@
 ;;;   (length list-of-nums) == n
 ;;;   (list-ref list-of-nums i) = i+1
 ;;;     for all i, 0 <= i < n.
-(define first-n-nums
+(define nums
   (lambda (n)
     (cdr (iota (+ n 1)))))
-
-<<<<<<< HEAD
-;; This is me just adding some comments so I can do some commits.
-
-
-;; Just me adding some more comments so I can commit again and practice
-;; my level of commitment.
-=======
-;;; If this shows up then the pull merged the documents
->>>>>>> b4e934b549502981471929997cea9a4e56e54037
